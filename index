@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>👩‍💻 | Zhang Wei's CV 🍀 </title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="zwsnail" content="Zoe‘s CV"">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/orbit-4.css">
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h1 class="name">Zhang Wei</h1>
+                <h3 class="tagline">Target position：</h3>
+                    <h3 class="tagline">Web Development</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="phone"><i class="fas fa-phone"></i>(+86)187 8023 0954</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i>Email zhangweicoco@gmail.com</li>
+                    <li class="website"><i class="fas fa-globe"></i><a href="https://jianshu.com/u/80d20e0eb76a" target="_blank">Blog jianshu.com/u/80d20e0eb76a</a></li>
+                    <!-- <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="#" target="_blank">linkedin.com/in/zhangweicoco</a></li> -->
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/zwsnail" target="_blank">Github  github.com/zwsnail</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">New Zealand Waikato Technology of Institute
+</h4>
+                    <h5 class="meta">Web developement</h5>
+	                    <div class="time">2019 - 2020</div>
+                </div><!--//item-->
+     
+                <!--//  <div class="item">
+                    <h4 class="degree">电子科技大学</h4>
+                    <h5 class="meta">工商管理</h5>
+	                    <div class="time">2007 - 2009</div>
+                </div>  item-->
+
+                <div class="item">
+                    <h4 class="degree">Neijiang Normal University</h4>
+                    <h5 class="meta">Mathematics and Applied Mathematics</h5>
+	                    <div class="time">2006 - 2011</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Language</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">IELTS 6.5</span></li>
+                    <li>Spanish <span class="lang-desc">Beginner<skillset/span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">On my spare time</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Outdoor trekking</li>
+                    <li>Travel</li>
+                    <li>Movies</li>
+                    <li>Music</li>
+                </ul>
+            </div><!--//interests-->
+            
+       </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>个人简介</h2>
+                <div class="summary">
+                    <p>Passionate about programming, enjoy the sense of accomplishment that comes from deep research and problem solving, strong enthusiasm for learning and embracing new knowledge, a lifelong learner.</p>
+                    <p>Good listening and writing skills, able to read English materials and technical documents. 7 years of experience living overseas.</p>
+                    <p>A good team member enjoying working with people with different cultures.</p>
+                    <h3 class="job-title">Stay hungry, stay foolish.</h3>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>学习项目</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Book shelf API</h3>
+                            <div class="time"><a href="https://github.com/zwsnail/bookshelf_backend">https://github.com/zwsnail/bookshelf_backend</a></div>
+                        </div><!--//upper-row-->
+                        <div class="company">XAMPP MySQL Laravel GraphQL</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>By using the Lighthouse php package which allows me to serve a GraphQL endpoint, so that the data can be highly customized; Install laravel-cors package to solove the cross-origin problem；Generate fake data by using Laravel factiory/Laravel seeds.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">A shop admin management platform</h3>
+                            <div class="time"><a href="https://github.com/zwsnail/vue_shop">https://github.com/zwsnail/vue_shop</a></div>
+                        </div><!--//upper-row-->
+                        <div class="company">Vue Element-UI E-charts Axios</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>I have gained lots of Vue skills by developing this platform.  Also the UI Toolkit (element-ui). It contains some typical template for enterprise applications, like maintaining goods(add / edit / categorize); generating report.
+                        </p>
+                        <p>By using the new way Vue UI (v4.0+ vue-cli)  to set-up a project; Fetch data by Axios; Element-UI (Cascader/Form/Upload/Timeline/Dialog) to build the interface and Charts by E-charts.
+                        </p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">A Massage shop website</h3>
+                            <div class="time"><a href="https://github.com/zwsnail/comp606A1P2">https://github.com/zwsnail/comp606A1P2</a></div>
+                        </div><!--//upper-row-->
+                        <div class="company">PHP MySQL Apache Git</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>It is a website created by me and another classmate. Customer could login and book the service by different needs; Admin could login and manage the booking database; use Php and Mysql to build the full CRUD application on a XAMPP platform</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">2028 Game</h3>
+                            <div class="time"><a href="https://zwsnail-2048.herokuapp.com">https://zwsnail-2048.herokuapp.com</a></div>
+                        </div><!--//upper-row-->
+                        <div class="company">Javascript Heroku </div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Through the development of the game, I learned the idea of modularizing complex programs and strengthening the skills of OOP. Achived deploying the small app on the cloud.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">RabbitMQ-demo </h3>
+                            <div class="time"><a href="https://github.com/zwsnail/RabbitMQ-demo">https://github.com/zwsnail/RabbitMQ-demo</a></div>
+                        </div><!--//upper-row-->
+                        <div class="company">PHP RabbitMQ Docker</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Download the RabbitMQ image using Docker，set up the Linux environment, connect and start the project, and write a demo of sending and receiving in five modes (one-to-one, one-to-many, Fanout, Direct, Topic) in RabbitMQ.
+                        Mapping out RabbitMQ's own backend administration panel port, managing account creation, authority authorization, and message monitoring. Get familiar with building a rapid development environment with containers and deepen the knowledge of message queues.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="section projects-section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-archive"></i></span>Courses</h2>
+                <div class="intro">
+                    <h3 class="job-title">Main：</h3>
+                </div><!--//intro-->
+
+                <div class="item">
+                    <span class="project-title">Java Object-Oriented Programming</span> ------ <span class="project-tagline">Understand the basic object-oriented programming practice and techniques. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Web Development</span> ------ <span class="project-tagline">Familiar with comprehensive web design rules, website backend programming and database management.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Project Management</span> ------ <span class="project-tagline">Master modern software development process management ideas, rapid iteration, agile development.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Database</span> ------ <span class="project-tagline">Connection database via Php; use of SQL statements to modify the database.</span>
+                </div><!--//item-->
+                <hr>
+                <div class="intro">
+                    <h3 class="job-title">Self Study：</h3>
+                </div><!--//intro-->
+                <div class="item">
+                    <span class="project-title">C Language</span> ------
+                    <span class="project-tagline">Master the basic syntax of C language and the use of standard libraries.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">数据结构与算法</span> ------ <span class="project-tagline">用 C 语言实现常用数据结构的操作；掌握线性数据结构数组和链表的特征，了解非线性数据结构如，二叉平衡数的常用操作。</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">Linux</span> ------ <span class="project-tagline">Understand Linux operating system principles, file IO, process control, inter-process communication methods, network programming; master Linux common commands; build and configure various environments under Linux.</span>
+                </div><!--//item-->
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 89%" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                               
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Javascript</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                              
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">C</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 76%" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <div class="progress level-bar">
+							    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Git</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                  
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">MySQL</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Docker</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Linux</h3>
+                        <div class="progress level-bar">
+						    <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 74%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><span class="icon-holder"><i class="fas fa-book"></i></span>Certificates</h2>
+                <div class="item">
+                    <h3 class="job-title">AZ-900  Microsoft Azure Fundamental</h3>
+                    <div>
+                        <a href="https://www.youracclaim.com/badges/98d1cd6c-e39f-429e-b0f0-836be071916e/linked_in_profile">Certificate NO：H428-8755</a>
+                    </div>
+                    <span class="project-tagline">Knowledge of concepts related to cloud services, as well as Microsoft Azure services, workloads, security and privacy, and cloud service pricing and support. Further familiarity with related technical concepts such as networking, storage, computing, application support, and application development.</span>
+                </div><!--//item-->
+                <hr>
+                <div class="item">
+                    <h3 class="job-title">PL-900  Microsoft Power Platform Fundamental</h3>
+                    <div>
+                        <a href="https://www.youracclaim.com/badges/bc75daef-55cd-4923-ba20-71ab11d1f7ec?source=linked_in_profile">Certificate NO：H620-0620</a>
+                    </div>
+                    <span class="project-tagline">Develop applications easily with "no code" and "low code" simplicity; Power BI can visualize data into reports or dashboards to provide intuitive data analysis.</span>
+                </div><!--//item-->
+            </section>
+
+            <!-- <section class="section experiences-section"> -->
+            <!-- <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Other experience</h2>  -->
+       
+    <!-- 新西兰 Waiotapu 地热国家公园https://www.waiotapu.co.nz2016-2018为游客提供园区解说导览服务；旅游纪念商品销售；门票团队预订；集团客户接洽等。</p>
+    迪拜中东最大奢侈品集团 Al Tayer Group https://www.altayer.com2012-2014
+    对商品进行进货验收、上货、补货、商品陈列、销售等作业；处理顾客投诉和服务工作中所发生的各种矛盾。 -->
+     
+
+                <!-- <div class="item"> -->
+                    <!-- <div class="meta"> -->
+                        <!-- <div class="upper-row"> -->
+                            <!-- <h3 class="job-title">成都市金牛区人北实验小学</h3> -->
+                            <!-- <div class="time"><a href="https://www.altayer.com/">https://www.altayer.com/</a></div> -->
+                        <!-- </div> -->
+                        <!-- <div class="company">2011-2012</div> -->
+                    <!-- </div> -->
+                    <!-- <div class="details"> -->
+                        <!-- <p>数学教师</p> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+        
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="#" target="_blank">zwsnail</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+        
+</body>
+</html> 
